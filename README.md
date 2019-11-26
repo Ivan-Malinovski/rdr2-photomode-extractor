@@ -1,15 +1,21 @@
 # Red Dead Redemption 2 - PC Photomode extractor
 
-This script extracts your photomode pictures from your save games folder and converts them to jpg. Simply run rdr2_photomode.py and a folder with your images will appear. 
+Download [here](https://github.com/Ivan-Malinovski/rdr2-photomode-extractor/releases)
+
+This program extracts your photomode pictures from your save games folder and converts them to jpg. Simply run the executable and a folder with your images will appear.
+
+If you have your save games folder in a weird location, create a new txt-file called rdr2dir.txt, that contains the path to the Profiles folder. This should be unnecessary for the vast majority of people.
+
+If you want a custom location for the images, create a txt-file called photodir.txt that contains the path you want to have the images extracted to. Make sure to end the path with a backslash.
 
 # Troubleshooting
 ## What do I need to run this?
-Install [Python 3](https://www.python.org/)
-
-## Nothing happens?
-You might need to adapt the path to your RDR2 save game folder. Edit rdr2_photomode.py and replace the path in this line:
-```
-dir = os.path.expanduser('~') + "\Documents\Rockstar Games\Red Dead Redemption 2\Profiles"
-```
+Nothing, everything needed is included in the executable. That's basically the only reason I made this fork.
 
 Have fun
+
+## Credits
+
+All the hard work was done by Manuelsc on GitHub, including some of the readme. I only made the program an executable, and added a couple of features, for the purpose of making it more user-friendly.
+
+Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com
