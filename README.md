@@ -8,7 +8,6 @@ If you have your save games folder in a weird location, create a new txt-file ca
 
 If you want a custom location for the images, create a txt-file called photodir.txt that contains the path you want to have the images extracted to. Make sure to end the path with a backslash.
 
-# Troubleshooting
 ## What do I need to run this?
 Nothing, everything needed is included in the executable. That's basically the only reason I made this fork.
 
